@@ -16,6 +16,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { ParentescoComponent } from './formularios/parentesco/parentesco.component';
 import { UsuarioComponent } from './formularios/usuario/usuario.component';
+import { ProfesorComponent } from './formularios/profesor/profesor.component';
+import { AlumnoComponent } from './formularios/alumno/alumno.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { UsuarioComponent } from './formularios/usuario/usuario.component';
     NavigationComponent,
     DashboardComponent,
     ParentescoComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    ProfesorComponent,
+    AlumnoComponent
     
   ],
   imports: [

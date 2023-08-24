@@ -59,8 +59,10 @@
     .bld{
       color: #fdfdfd;
       font-weight:bold;
+      font-size:xx-large;
       
     }
+
 
     /* ---------------- BACKGROUNDS --------------------- */
 
@@ -145,6 +147,86 @@
   place-items: center;
 
 }
+
+.fos_asig{
+  background: url('img/7.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  
+  color: #fdfdfd;
+  text-align: left;
+  background-color: #fff; 
+  display: grid;
+  place-items: center;
+
+}
+
+.fos_gs{
+  background: url('img/8.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  
+  color: #fdfdfd;
+  text-align: left;
+  background-color: #fff; 
+  display: grid;
+  place-items: center;
+
+}
+
+.fos_notas{
+  background: url('img/9.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  
+  color: #fdfdfd;
+  text-align: left;
+  background-color: #fff; 
+  display: grid;
+  place-items: center;
+
+}
+
+.fos_ins{
+  background: url('img/13.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  
+  color: #fdfdfd;
+  text-align: left;
+  background-color: #fff; 
+  display: grid;
+  place-items: center;
+
+}
     
   
   [tabindex="-1"]:focus {
@@ -158,8 +240,8 @@
     padding: 20px;
     background-color: transparent;
     backdrop-filter: blur(100px);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     width: calc(50% - 10px);
     margin-bottom: 15px;
     margin-top: 20px;
@@ -417,10 +499,12 @@
       font-weight: 500;
       line-height: 1.2;
       color: var(--bs-heading-color);
+      
     }
     
     h1, .h1 {
       font-size: calc(1.375rem + 1.5vw);
+      
     }
     @media (min-width: 1200px) {
       h1, .h1 {
@@ -8523,4 +8607,4 @@
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif bold; }

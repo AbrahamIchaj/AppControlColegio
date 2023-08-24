@@ -15,7 +15,7 @@
 
 
     <div>
-        <h1 class="bld">AGREGAR UN PROFESOR</h1>   
+        <h1 class="bld">AGREGAR UN ALUMNO</h1>   
         <hr class="border border-primary  opacity-100">
     
     </div>
@@ -41,26 +41,35 @@
 
 <div class="row g-3">
     <div class="col">
+            
+        <label>Sexo:</label>
+        <br>
+        <select class="form-select form-control" aria-label="Default select example">
+           
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+            
+        </select>
+        
+    </div>
 
-        <!-- ---------------------------- -->
-      
-        <label>Dirección:</label>
-
-        <input type="text" class="form-control mb-3">
-   
+    <div class="col">
+        <label>Fecha de nacimiento:</label>
+         <input type="date" class="form-control mb-3">
+        
     </div>
 </div>
     
 <div class="row g-3">
     <div class="col">
-        <label>Fecha de nacimiento:</label>
-         <input type="date" class="form-control mb-3" placeholder="Max 10 caracteres">
+        <label>Telefono:</label>
+         <input type="text" class="form-control mb-3">
         
     </div>
 
 
     <div class="col"> 
-        <label>Telefono</label>
+        <label>Dirección</label>
          <input type="text" class="form-control" >
 
         
@@ -90,10 +99,24 @@
     </div>
 
     <div class="col">
-        <label>DPI:</label>
+        <label>Carnet:</label>
          <input type="text" class="form-control" placeholder="">
         
     </div>
+
+    <div class="col">
+            
+        <label>Elegir encargado:</label>
+        <br>
+        <select class="form-select form-control" aria-label="Default select example">
+           
+            <option value="1">id_Parentesco1</option>
+            <option value="2">id_Parentesco2</option>
+            
+        </select>
+        
+    </div>
+
 </div>
     
 

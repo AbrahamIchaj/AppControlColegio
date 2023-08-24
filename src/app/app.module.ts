@@ -18,6 +18,10 @@ import { ParentescoComponent } from './formularios/parentesco/parentesco.compone
 import { UsuarioComponent } from './formularios/usuario/usuario.component';
 import { ProfesorComponent } from './formularios/profesor/profesor.component';
 import { AlumnoComponent } from './formularios/alumno/alumno.component';
+import { AsignaturaComponent } from './formularios/asignatura/asignatura.component';
+import { GradoSeccionComponent } from './formularios/grado-seccion/grado-seccion.component';
+import { NotasComponent } from './formularios/notas/notas.component';
+import { InscripcionComponent } from './formularios/inscripcion/inscripcion.component';
 
 
 @NgModule({
@@ -28,7 +32,11 @@ import { AlumnoComponent } from './formularios/alumno/alumno.component';
     ParentescoComponent,
     UsuarioComponent,
     ProfesorComponent,
-    AlumnoComponent
+    AlumnoComponent,
+    AsignaturaComponent,
+    GradoSeccionComponent,
+    NotasComponent,
+    InscripcionComponent
     
   ],
   imports: [

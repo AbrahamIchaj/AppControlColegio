@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./inscripcion.component.css']
 })
 export class InscripcionComponent {
+ 
 
 }

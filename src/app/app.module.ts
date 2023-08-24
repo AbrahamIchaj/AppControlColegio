@@ -22,6 +22,21 @@ import { AsignaturaComponent } from './formularios/asignatura/asignatura.compone
 import { GradoSeccionComponent } from './formularios/grado-seccion/grado-seccion.component';
 import { NotasComponent } from './formularios/notas/notas.component';
 import { InscripcionComponent } from './formularios/inscripcion/inscripcion.component';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+
+
+const appRoutes:Routes = [
+  { path: 'alumno', component: AlumnoComponent },
+  { path: 'asignatura', component: AsignaturaComponent },
+  { path: 'gradoseccion', component: GradoSeccionComponent },
+  { path: 'inscripcion', component: InscripcionComponent },
+  { path: 'notas', component: NotasComponent },
+  { path: 'parentesco', component: ParentescoComponent },
+  { path: 'profesor', component: ProfesorComponent },
+  { path: 'usuario', component: UsuarioComponent },
+
+];
 
 
 @NgModule({
@@ -50,9 +65,14 @@ import { InscripcionComponent } from './formularios/inscripcion/inscripcion.comp
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+}

@@ -24,6 +24,8 @@ import { NotasComponent } from './formularios/notas/notas.component';
 import { InscripcionComponent } from './formularios/inscripcion/inscripcion.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { Router, RouterLink } from '@angular/router';
+
 
 
 const appRoutes:Routes = [
